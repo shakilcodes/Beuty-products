@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     return (
         <div>
-            <div className='bg-[url(https://i.postimg.cc/tg9pcqQn/Screenshot-2023-09-01-at-10-37-28-PM.png)] lg:h-[50vh] w-[100%] bg-no-repeat	bg-cover flex gap-20 pl-20 items-center text-white'>
+            <div className='bg-[url(https://i.postimg.cc/tg9pcqQn/Screenshot-2023-09-01-at-10-37-28-PM.png)] lg:h-[65vh] w-[100%] bg-no-repeat	bg-cover flex gap-20 pl-10 pt-[120px] text-white'>
                 <h1 className='text-3xl'>Aesop</h1>
                 <div className='w-[400px]'>
                     <p>Bar Soaps</p>

@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='grid gap-2'>
                 <h1>Subscribe to Aesop communications</h1>
                 <hr className='' />
-                <input className='' type="text" placeholder='Email Adress' />
+                <input className='bg-[#252525] border px-10 text-xl font-bold' type="text" placeholder='Email Adress' />
                 <p>Subscribe to receive communications from Aesop. By subscribing, you confirm you have read and understood our privacy policy.</p>
             </div>
             <div className='grid gap-2'>

@@ -21,7 +21,7 @@ const SecondSlider = () => {
     
 
     return (
-        <main className='mt-[150px] mx-20'>
+        <main className='mt-[150px] mx-20 text-[#333333]'>
             <Swiper
                 onSwiper={setSwiperRef}
                 slidesPerView={3}
@@ -33,13 +33,12 @@ const SecondSlider = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <p className='font-bold'>For the skin</p>
-                    <h1 className='text-3xl my-4'>Attention for all types</h1>
-                    <p>The well-being of your skin is the product of hydration, nourishment, and protection through discerning rituals. Explore requisite skin care for all skin types.</p>
-                    <button className='mt-5'>See All Skin Care</button>
+                    <p className=''>For the Home</p>
+                    <h1 className='text-3xl my-4'>Domestic pleasures</h1>
+                    <p className='mt-10'>The well-being of your skin is the product of hydration, nourishment, and protection through discerning rituals. Explore requisite skin care for all skin types.</p>
+                    <button className='mt-10'>See All Home</button>
 
                 </SwiperSlide>
-               
                 <SwiperSlide className=''>
                     <div className='grid justify-center'>
                         <img className='h-[400px] ' src="https://i.postimg.cc/t4Y85bty/Screenshot-2023-09-02-at-12-46-00-AM.png" alt="" />
@@ -88,7 +87,7 @@ const SecondSlider = () => {
                 
             </Swiper>
 
-            <hr className='my-10'/>
+<hr className='mt-[80px]' />
         </main>
     );
 }

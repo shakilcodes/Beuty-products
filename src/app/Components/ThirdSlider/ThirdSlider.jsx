@@ -21,13 +21,13 @@ const ThirdSlider = () => {
 
 
     return (
-        <main className='mt-[150px] mx-20 grid grid-cols-2'>
+        <main className='mt-[150px] mx-20 grid grid-cols-5 text-[#333333]'>
             <div>
-                <h1 className='text-2xl font-bold'>Store locator</h1>
+                <h1 className='text-2xl'>Store locator</h1>
                 <p className='my-5'>Our consultants are available to host you in-store and provide tailored guidance on gift purchases. </p>
-                <button>Find a  nearby store</button>
+                <p className='mt-10 border w-[300px] p-3 cursor-pointer'>Find a Nearby Store</p>
             </div>
-            <div>
+            <div className='col-span-4'>
                 <Swiper
                     onSwiper={setSwiperRef}
                     slidesPerView={1}
@@ -41,7 +41,7 @@ const ThirdSlider = () => {
 
                     <SwiperSlide className=''>
                         <div className='grid justify-center'>
-                            <img className='h-[400px] ' src="https://i.postimg.cc/6Q3MLfdP/Screenshot-2023-09-02-at-1-15-10-AM.png" alt="" />
+                            <img className='h-[500px] ' src="https://i.postimg.cc/6Q3MLfdP/Screenshot-2023-09-02-at-1-15-10-AM.png" alt="" />
                         </div>
                         <div className='text-center'>
                             <h1>Lucent Facial Concetrate</h1>
