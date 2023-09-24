@@ -42,7 +42,7 @@ const FirstSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=''>
                         <div className='grid justify-center'>
-                            <img className='h-[400px] ' src="https://i.postimg.cc/t4Y85bty/Screenshot-2023-09-02-at-12-46-00-AM.png" alt="" />
+                            <img className='h-[400px] ' src="https://obsentum-prod.ams3.digitaloceanspaces.com/sylius_shop_product_original/dc/45/8edcd5395f6efb4c226c1e0ae15f.jpg" alt="" />
                         </div>
                         <div className='text-center'>
                             <h1>Lucent Facial Concetrate</h1>
@@ -51,7 +51,7 @@ const FirstSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=''>
                         <div className='grid justify-center'>
-                            <img className='h-[400px]  ' src="https://i.postimg.cc/rppGWySC/Screenshot-2023-09-02-at-12-46-12-AM.png" alt="" />
+                            <img className='h-[400px]  ' src="https://reapp.com.gh/wp-content/uploads/2022/08/71CItz9AMYL._AC_SL1500_-e1659452597399.jpg" alt="" />
                         </div>
                         <div className='text-center'>
                             <h1>Lucent Facial Concetrate</h1>
@@ -60,7 +60,7 @@ const FirstSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=''>
                         <div className='grid justify-center'>
-                            <img className='h-[400px] ' src="https://i.postimg.cc/k4vnmCpz/Screenshot-2023-09-02-at-12-46-49-AM.png" alt="" />
+                            <img className='h-[400px] ' src="https://www.orental.ru/upload/resize_cache/catalog/victoria-s-secret/870_870_1/very-sexy-night-1.jpg" alt="" />
                         </div>
                         <div className='text-center'>
                             <h1>Lucent Facial Concetrate</h1>
@@ -69,7 +69,7 @@ const FirstSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=''>
                         <div className='grid justify-center'>
-                            <img className='h-[400px] ' src="https://i.postimg.cc/t4Y85bty/Screenshot-2023-09-02-at-12-46-00-AM.png" alt="" />
+                            <img className='h-[400px] ' src="https://www.perfumeblvd.com/images/images/Romance%20De%20Provence%20Perfume%203.4oz.jpg" alt="" />
                         </div>
                         <div className='text-center'>
                             <h1>Lucent Facial Concetrate</h1>
@@ -78,7 +78,7 @@ const FirstSlider = () => {
                     </SwiperSlide>
                     <SwiperSlide className=''>
                         <div className='grid justify-center'>
-                            <img className='h-[400px] ' src="https://i.postimg.cc/t4Y85bty/Screenshot-2023-09-02-at-12-46-00-AM.png" alt="" />
+                            <img className='h-[400px] ' src="https://euro-shock.ru/image/cache/catalog/server1/7/1/493247323-genskaya-parfyumernaya-voda-victoria-s-secret-bombshell-wild-flower-sn-700x700.jpg" alt="" />
                         </div>
                         <div className='text-center'>
                             <h1>Lucent Facial Concetrate</h1>
