@@ -27,17 +27,19 @@ const FirstSlider = () => {
                     onSwiper={setSwiperRef}
                     slidesPerView={3}
                     centeredSlides={false}
-                    spaceBetween={30}
+                    spaceBetween={20}
 
                     navigation={true}
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
                     <SwiperSlide className=''>
-                        <p className=''>For the skin</p>
-                        <h1 className='text-3xl my-4'>Attention for all types</h1>
-                        <p className='mt-10'>The well-being of your skin is the product of hydration, nourishment, and protection through discerning rituals. Explore requisite skin care for all skin types.</p>
-                        <button className='mt-10'>See All Skin Care</button>
+                        <div className='lg:ms-20'>
+                            <p className=''>For the skin</p>
+                            <h1 className='text-3xl my-4 font-bold'>Attention for all types <br />Products</h1>
+                            <p className='mt-10'>The well-being of your skin is the product of hydration, nourishment, and protection through discerning rituals. Explore requisite skin care for all skin types.</p>
+                            <p className='mt-10 border w-[300px] p-3 cursor-pointer hover:bg-gray-200'>Explore Our Products</p>
+                        </div>
 
                     </SwiperSlide>
                     <SwiperSlide className=''>

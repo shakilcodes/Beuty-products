@@ -3,14 +3,12 @@ import React from 'react';
 const Banner = () => {
     return (
         <div>
-            <div className='bg-[url(https://images.summitmedia-digital.com/preview/images/2021/12/22/preview-beauty-awards-skincare-nm.jpg)] md:bg-[url(https://www.bwconfidential.com/wp-content/uploads/2020/02/unilever-to-review-beauty-brands.jpg)] h-[90vh] md:w-[100%] bg-no-repeat	bg-cover flex gap-20 pl-10 pt-[120px] text-black'>
-                <h1 className='text-3xl hidden md:block'>GlamourGlow</h1>
-                <div className='w-[400px] hidden md:block'>
-                    <p>Bar Soaps</p>
-                    <h3 className='text-3xl my-5'>A body care classic, reimagined</h3>
-                    <p>Breathing new life into the humble bar soap are Nurture, Polish and Refresh—three additions to the range, each imparting a unique constellation of benefits.</p>
-                    <button>Discover Bar Soaps</button>
-                </div>
+            <div className='bg-[url(https://images.summitmedia-digital.com/preview/images/2021/12/22/preview-beauty-awards-skincare-nm.jpg)] md:bg-[url(https://i.postimg.cc/ZYBRnjmz/Wallpaper.jpg)] h-[70vh] md:w-[100%] bg-no-repeat	bg-cover flex gap-20 pl-10 pt-[120px] text-white'>
+                <h1 className='text-5xl hidden md:block'>GlamourGlow</h1>
+                <div className='w-[500px] hidden md:block'>
+                    <h3 className='text-6xl font-bold'>A body care classic, reimagined</h3>
+                    <p className='my-8 text-xl'>Breathing new life into the humble bar soap are Nurture, Polish and Refresh—three additions to the range, each imparting a unique constellation of benefits.</p>
+                    <p className='mt-10 border w-[300px] p-3 cursor-pointer hover:bg-black hover:text-white text-xl font-semibold'>Discover more</p>                </div>
             </div>
             <div>
 

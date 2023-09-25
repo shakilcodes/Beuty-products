@@ -52,11 +52,14 @@ const Navbar = () => {
                     <ul >
                         <div className='flex justify-between items-center w-full gap-10'>
                             <div className='flex items-center gap-3'>
-                                <Link className='hidden md:block text-2xl font-bold' href=''>GlamourGlow</Link>
+                                <div>
+                                    <img className='w-14 h-16' src="https://www.glamourblvd.org/cdn/shop/files/High_Resolution_Label_180x.png?v=1686107921" alt="" />
+                                </div>
+                                <Link className='hidden md:block text-3xl font-bold' href='/'>GlamourGlow</Link>
                                 <Link href='' className=' hidden md:block'>Skin Care</Link>
                                 <Link href='' className=' hidden md:block'>Body & Hand </Link>
                                
-                                <Link href='' className=' hidden md:block'>Home </Link>
+                                <Link href='/' className=' hidden md:block'>Home </Link>
                                 
                                 <Link href='' className=' hidden md:block'>Gifts </Link>
                               
@@ -67,7 +70,7 @@ const Navbar = () => {
                             </div>
 
                             <div className='flex gap-3'>
-                                <Link href='' className='hidden md:block'>Log in </Link>
+                                <Link href='/logIn' className='hidden md:block'>Log in </Link>
                                 <Link className='hidden md:block font-bold' href=''>Cart </Link>
                             </div>
 
