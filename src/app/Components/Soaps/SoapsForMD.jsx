@@ -28,7 +28,7 @@ const SoapsForMD = () => {
                     if (mouseOver) return
                     timeout = setTimeout(() => {
                         slider.next()
-                    }, 80000)
+                    }, 800)
                 }
                 slider.on("created", () => {
                     slider.container.addEventListener("mouseover", () => {

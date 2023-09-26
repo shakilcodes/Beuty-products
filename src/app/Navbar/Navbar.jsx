@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
-import { BsSearch } from "react-icons/bs";
-import { AiOutlineHeart } from "react-icons/ai";
+import { BsFillBarChartFill, BsSearch } from "react-icons/bs";
+import { AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
+
 
 const Navbar = () => {
     return (
@@ -69,9 +70,9 @@ const Navbar = () => {
 
                             </div>
 
-                            <div className='flex gap-3'>
+                            <div className='flex items-center gap-3'>
                                 <Link href='/logIn' className='hidden md:block'>Log in </Link>
-                                <Link className='hidden md:block font-bold' href=''>Cart </Link>
+                                <Link className='hidden md:block font-bold' href=''><AiOutlineShoppingCart className='text-4xl'></AiOutlineShoppingCart> </Link>
                             </div>
 
                         </div>

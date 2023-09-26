@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const Banner = () => {
     return (
@@ -8,7 +9,7 @@ const Banner = () => {
                 <div className='w-[500px] hidden md:block'>
                     <h3 className='text-6xl font-bold'>A body care classic, reimagined</h3>
                     <p className='my-8 text-xl'>Breathing new life into the humble bar soap are Nurture, Polish and Refresh—three additions to the range, each imparting a unique constellation of benefits.</p>
-                    <p className='mt-10 border w-[300px] p-3 cursor-pointer hover:bg-black hover:text-white text-xl font-semibold'>Discover more</p>                </div>
+                    <p className='mt-10 border w-[300px] p-3 cursor-pointer hover:bg-black hover:text-white text-xl font-semibold bg-black bg-opacity-75 flex items-center gap-8'>Discover more <AiOutlineArrowRight className='text-2xl'></AiOutlineArrowRight></p>                </div>
             </div>
             <div>
 
