@@ -10,20 +10,26 @@ import ThirdSlider from './Components/ThirdSlider/ThirdSlider'
 import SliderWithContent from './Components/SliderWithContent/SliderWithContent'
 import DownloadOurApps from './Components/DownloadOurApps/DownloadOurApps'
 import OffSection from './Components/OffSection/OffSection'
+import SoapsForMD from './Components/Soaps/SoapsForMD'
+import SoapForSM from './Components/Soaps/SoapsForSM'
 
 export default function Home() {
   return (
     <main className="">
       <Banner></Banner>
-      <Soaps></Soaps>
-      <Aehenaeum></Aehenaeum>
-      <FirstSlider></FirstSlider>
-      <PostPoo></PostPoo>
-      <SecondSlider></SecondSlider>
-      <OffSection></OffSection>
-      <SliderWithContent></SliderWithContent>
-      <DownloadOurApps></DownloadOurApps>
-      <LiveNever></LiveNever>
+      <section className=''>
+        <Soaps></Soaps>
+        <SoapsForMD></SoapsForMD>
+        <SoapForSM></SoapForSM>
+        <Aehenaeum></Aehenaeum>
+        <FirstSlider></FirstSlider>
+        <PostPoo></PostPoo>
+        <SecondSlider></SecondSlider>
+        <OffSection></OffSection>
+        <DownloadOurApps></DownloadOurApps>
+        <LiveNever></LiveNever>
+        <SliderWithContent></SliderWithContent>
+      </section>
     </main>
   )
 }

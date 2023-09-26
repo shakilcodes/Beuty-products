@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className='mt-[50px] md:mt-[150px] bg-[#252525] text-white p-10 md:grid grid-cols-4 justify-around gap-10'>
+        <footer className='mt-[50px] md:mt-[150px] bg-[#252525] text-white p-10 grid md:grid-cols-2 lg:grid-cols-4 justify-around gap-10'>
             <div className='grid gap-2'>
                 <h1>Subscribe to Aesop communications</h1>
                 <hr className='' />

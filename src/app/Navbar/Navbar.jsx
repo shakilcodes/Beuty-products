@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="flex mr-5">
                     <div className="dropdown w-full">
                         <div className='flex items-center justify-between mr-5 text-white'>
-                            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                            <label tabIndex={0} className="btn btn-ghost md:hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                                 <Link className='block md:hidden' href=''>GlamourGlow</Link>
 
@@ -53,7 +53,7 @@ const Navbar = () => {
                         <div className='flex justify-between items-center w-full gap-10'>
                             <div className='flex items-center gap-3'>
                                 <div>
-                                    <img className='w-14 h-16' src="https://www.glamourblvd.org/cdn/shop/files/High_Resolution_Label_180x.png?v=1686107921" alt="" />
+                                    <img className='w-14 h-16 hidden md:block' src="https://www.glamourblvd.org/cdn/shop/files/High_Resolution_Label_180x.png?v=1686107921" alt="" />
                                 </div>
                                 <Link className='hidden md:block text-3xl font-bold' href='/'>GlamourGlow</Link>
                                 <Link href='' className=' hidden md:block'>Skin Care</Link>

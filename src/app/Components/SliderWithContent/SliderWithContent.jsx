@@ -19,7 +19,7 @@ const slides = [
                 <li>Saturday: 11:00 AM - 7:00 PM</li>
                 <li>Sunday: Closed</li>
             </ul>
-            <p className='mt-10 border w-[300px] p-3 cursor-pointer hover:bg-gray-200'>Contact Us</p>
+            <p className='my-10 border w-[300px] p-3 cursor-pointer hover:bg-gray-200'>Contact Us</p>
         </div>,
     },
     {
@@ -34,7 +34,7 @@ const slides = [
             <li>Saturday: 11:00 AM - 7:00 PM</li>
             <li>Sunday: 11:00 AM - 5:00 PM</li>
         </ul>
-        <p className='mt-10 border w-[300px] p-3 cursor-pointer hover:bg-gray-200'>Contact Us</p>
+        <p className='my-10 border w-[300px] p-3 cursor-pointer hover:bg-gray-200'>Contact Us</p>
     </div>,
     },
     {
@@ -49,7 +49,7 @@ const slides = [
             <li>Saturday: 11:00 AM - 7:00 PM</li>
             <li>Sunday: Closed</li>
         </ul>
-        <p className='mt-10 border w-[300px] p-3 cursor-pointer hover:bg-gray-200'>Contact Us</p>
+        <p className='my-10 border w-[300px] p-3 cursor-pointer hover:bg-gray-200'>Contact Us</p>
     </div>
 
         ,
@@ -61,9 +61,9 @@ const SliderWithContent = () => {
     const sliderRef = useRef(null);
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
-        speed: 500,
+        speed: 50,
         slidesToShow: 1,
         slidesToScroll: 1,
         afterChange: (currentSlide) => {
@@ -96,21 +96,21 @@ const SliderWithContent = () => {
             </div>
             <div className='mt-10'>
                 <div className="content lg:grid grid-cols-4 justify-between items-center md:mx-28 gap-5 px-5 md:px-0">
-                    <div className='md:ms-20 md:order-2 lg:order-1'>
+                    <div className='lg:ms-20 md:order-2 lg:order-1'>
                         <p>{slides[activeSlide].content}</p>
                     </div>
 
-                    <div className='col-span-3 md:relative lg:ms-[200px] md:order-1'>
+                    <div className='col-span-3 relative lg:ms-[200px] md:order-1'>
                         <div className=''>
-                            <img className='w-full md:h-[400px] lg:h-[600px] rounded-xl' src={slides[activeSlide].title} alt="" />
+                            <img className='w-full h-auto md:h-[400px] lg:h-[600px] rounded-xl' src={slides[activeSlide].title} alt="" />
                         </div>
                         <div className='flex justify-between'>
-                            <div className='md:absolute z-[1] md:top-[50%] md:-ms-14'>
+                            <div className='absolute top-[50%] md:-ms-14'>
                                 <button onClick={goToPrevSlide} className="prev-button ">
                                     <AiOutlineArrowLeft className='text-5xl text-blue-500'></AiOutlineArrowLeft>
                                 </button>
                             </div>
-                            <div className='md:absolute z-[1] top-[50%] right-0 md:-mr-14'>
+                            <div className='absolute z-[1] top-[50%] right-0 md:-mr-14'>
                                 <button onClick={goToNextSlide} className="next-button">
                                     <AiOutlineArrowRight className='text-5xl text-blue-500'></AiOutlineArrowRight>
                                 </button>
@@ -124,3 +124,4 @@ const SliderWithContent = () => {
 };
 
 export default SliderWithContent;
+
